@@ -1,0 +1,69 @@
+pwd - showcase current location, talks about path working directory
+whoami - shows the name of user
+mkdir directory_name - creates a directory
+ls - it shows a file in a folder (if created)
+rmdir directory_name - removes the directory 
+ls -lt : gives name of file, directory with details (latest is first)
+ls -ltr : gives name of file, directory with details in reverse order (latest is last)
+date - gives todays date  Thu Sep  4 11:52:21 PDT 2025
+date +%D - 09/04/25
+date +%T - showcase time (11:53:39)
+date +%H:%M -displays time (only in hrs and minutes)
+touch ABC.txt - creates file named abc.txt
+nano ABC.txt - opens new window that is editor, write 2 3 lines in the editor, ctrl+x quits the editor and opens ubantu again
+cd .. -
+cd -
+ls
+clear - clears everything
+
+................................
+ietuser@DESKTOP-40ICR92:~$ ls
+ABC.txt  IET  Shweta  hello.txt  hi.txt
+ietuser@DESKTOP-40ICR92:~$ mv ABC.txt IET
+ietuser@DESKTOP-40ICR92:~$ ls
+IET  Shweta  hello.txt  hi.txt
+ietuser@DESKTOP-40ICR92:~$ history
+    1  pwd
+    2  whoami
+    3  ls
+    4  mkdir
+    5  mkdir Shruti
+    6  mkdir Shweta
+    7  mkdir IET
+    8  rmdir Shruti
+    9  ls
+   10  ls -lt
+   11  ls -ltr
+   12  date
+   13  date +%D
+   14  date +%T
+   15  date +%H:%M
+   16  touch ABC.txt
+   17  touch hello.txt
+   18  touch hi.txt
+   19  touch hello.txt
+   20  ls
+   21  nano ABC.txt
+   22  cat ABC.txt
+   23  cd ..
+   24  cd Shweta
+   25  cd IET
+   26  cd home
+   27  cd ABC.txt
+   28  ls
+   29  cd ietuser
+   30  ls
+   31  clear
+   32  ls
+   33  mv. ABC.txt Shweta
+   34  cd..
+   35  cd ..
+   36  ls
+   37  cd Shweta
+   38  cd ietuser
+   39  clear
+   40  ls
+   41  mv ABC.txt IET
+   42  ls
+   43  history
+ietuser@DESKTOP-40ICR92:~$
